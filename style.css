@@ -150,8 +150,10 @@ body::-webkit-scrollbar-thumb {
   max-width: 536px;
 }
 .header-container .title span {
-  color: #6b11ff;
   font-weight: 900;
+  background: linear-gradient(to right, #7F3EF1, #A94DFC);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .header-container .title h1 {
   font-size: 56px;
